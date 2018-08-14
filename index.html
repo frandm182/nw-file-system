@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>File Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/app.css" />
+</head>
+<body class="l-app">
+    <header class="l-app__titlebar titlebar">
+        <span class="titlebar__path">/home/fran</span>
+        <a class="titlebar__btn">...</a>
+        <a class="titlebar__btn is-hidden"></a>
+        <a class="titlebar__btn"></a>
+        <a class="titlebar__btn"></a>
+        
+    </header>
+    <div class="l-app__main l-main">
+        <aside class="l-main__dir-list dir-list">
+            <nav>
+                <ul>
+                    <li class="dir-list__li">..</li>
+                    <li class="dir-list__li">assets</li>
+                    <li class="dir-list__li">js</li>
+                    <li class="dir-list__li">node_modules</li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="l-main__file-list file-list"></main>
+    </div>
+    <footer class="l-app__footer footer"></footer>
+</body>
+</html>
